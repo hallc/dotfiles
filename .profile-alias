@@ -1,0 +1,9 @@
+if [ `uname` = "Darwin" ]; then
+	alias ls='ls -G'
+else
+	alias ls='ls --color'
+fi
+alias ll='ls -lh'
+alias la='ls -A'
+alias reload='source ~/.profile'
+
