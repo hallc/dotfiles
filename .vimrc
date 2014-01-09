@@ -12,8 +12,3 @@ set softtabstop=4
 set shiftwidth=4
 "set expandtab
 
-command WQ wq
-command Wq wq
-command W w
-command Q q
-
