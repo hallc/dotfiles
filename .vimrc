@@ -1,12 +1,12 @@
-set guioptions=-mt
 set nobackup
 set autoindent
 set smartindent
 set background=dark
-set ruler
 "set number
+set ruler
 syntax on
 set hlsearch
+set incsearch
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
