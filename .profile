@@ -35,7 +35,7 @@ MY_PATH=$MY_PATH:/Library/Frameworks/Python.framework/Versions/3.4/bin
 export PATH=$MY_PATH:$PATH
 
 # Python Setup
-/Library/Frameworks/Python.framework/Versions/2.7/bin/virtualenvwrapper.sh
+source /Library/Frameworks/Python.framework/Versions/2.7/bin/virtualenvwrapper.sh
 
 # Environment Variables
 
