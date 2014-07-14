@@ -27,9 +27,10 @@ alias reload='source ~/.profile'
 
 # Path
 MY_PATH=$MY_PATH:~/Projects/public/labs/scripts
+MY_PATH=$MY_PATH:/Applications/apache-ant-1.9.4/bin
 MY_PATH=$MY_PATH:/Applications/android-sdk-macosx/tools
 MY_PATH=$MY_PATH:/Applications/android-sdk-macosx/platform-tools
-MY_PATH=$MY_PATH:/Applications/apache-ant-1.9.2/bin
+MY_PATH=$MY_PATH:/Applications/android-sdk-macosx/tools/templates/gradle/wrapper
 MY_PATH=$MY_PATH:/Library/Frameworks/Python.framework/Versions/2.7/bin
 MY_PATH=$MY_PATH:/Library/Frameworks/Python.framework/Versions/3.4/bin
 export PATH=$MY_PATH:$PATH
