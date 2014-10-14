@@ -26,7 +26,7 @@ alias lla='ls -lhA'
 alias reload='source ~/.profile'
 
 # Path
-MY_PATH=$MY_PATH:~/Projects/public/labs/scripts
+MY_PATH=$MY_PATH:~/Projects/personal/labs/scripts
 MY_PATH=$MY_PATH:/Applications/android-sdk-macosx/tools
 MY_PATH=$MY_PATH:/Applications/android-sdk-macosx/platform-tools
 MY_PATH=$MY_PATH:/Applications/apache-ant-1.9.2/bin
