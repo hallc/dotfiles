@@ -40,4 +40,6 @@ source /Library/Frameworks/Python.framework/Versions/2.7/bin/virtualenvwrapper.s
 # Custom Aliases
 
 # Custom Environment Variables
+export ANDROID_HOME=/Applications/android-sdk-macosx
+export ANDROID_HVPROTO=ddm
 
