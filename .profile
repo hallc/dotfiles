@@ -29,10 +29,18 @@ alias reload='source ~/.profile'
 MY_PATH=$MY_PATH:~/Projects/personal/labs/scripts
 MY_PATH=$MY_PATH:/Applications/android-sdk-macosx/tools
 MY_PATH=$MY_PATH:/Applications/android-sdk-macosx/platform-tools
-MY_PATH=$MY_PATH:/Applications/android-sdk-macosx/tools/templates/gradle/wrapper
 MY_PATH=$MY_PATH:/Library/Frameworks/Python.framework/Versions/2.7/bin
 MY_PATH=$MY_PATH:/Library/Frameworks/Python.framework/Versions/3.4/bin
 export PATH=$MY_PATH:$PATH
+
+# Java Setup
+export JAVA7_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home
+export JAVA8_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home
+export JAVA_HOME=$JAVA7_HOME
+
+# Android Setup
+export ANDROID_HOME=/Applications/android-sdk-macosx
+export ANDROID_HVPROTO=ddm
 
 # Python Setup
 source /Library/Frameworks/Python.framework/Versions/2.7/bin/virtualenvwrapper.sh
@@ -43,6 +51,4 @@ source ~/.git-completion.bash
 # Custom Aliases
 
 # Custom Environment Variables
-export ANDROID_HOME=/Applications/android-sdk-macosx
-export ANDROID_HVPROTO=ddm
 
