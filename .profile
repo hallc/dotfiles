@@ -37,6 +37,9 @@ export PATH=$MY_PATH:$PATH
 # Python Setup
 source /Library/Frameworks/Python.framework/Versions/2.7/bin/virtualenvwrapper.sh
 
+# Git Setup
+source ~/.git-completion.bash
+
 # Custom Aliases
 
 # Custom Environment Variables
