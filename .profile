@@ -34,9 +34,10 @@ MY_PATH=$MY_PATH:/Library/Frameworks/Python.framework/Versions/3.4/bin
 export PATH=$MY_PATH:$PATH
 
 # Java Setup
-export JAVA7_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home
-export JAVA8_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home
+JAVA7_HOME=`find /Library/Java/JavaVirtualMachines -type d -name "jdk1.7.*"`/Contents/Home
+JAVA8_HOME=`find /Library/Java/JavaVirtualMachines -type d -name "jdk1.8.*"`/Contents/Home
 export JAVA_HOME=$JAVA7_HOME
+export PATH=$JAVA_HOME/bin:$PATH
 
 # Android Setup
 export ANDROID_HOME=/Applications/android-sdk-macosx
