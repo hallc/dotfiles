@@ -12,3 +12,7 @@ set softtabstop=4
 set shiftwidth=4
 "set expandtab
 set pastetoggle=<F10>
+
+" CocoaPods
+au BufNewFile,BufRead Podfile,*.podspec set filetype=ruby
+
