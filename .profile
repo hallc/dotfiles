@@ -31,13 +31,12 @@ MY_PATH=$MY_PATH:/Applications/android-sdk-macosx/tools
 MY_PATH=$MY_PATH:/Applications/android-sdk-macosx/platform-tools
 MY_PATH=$MY_PATH:/Applications/Sublime\ Text.app/Contents/SharedSupport/bin
 MY_PATH=$MY_PATH:/Library/Frameworks/Python.framework/Versions/2.7/bin
-MY_PATH=$MY_PATH:/Library/Frameworks/Python.framework/Versions/3.4/bin
+MY_PATH=$MY_PATH:/Library/Frameworks/Python.framework/Versions/3.5/bin
 export PATH=$MY_PATH:$PATH
 
 # Java Setup
-JAVA7_HOME=`find /Library/Java/JavaVirtualMachines -type d -name "jdk1.7.*"`/Contents/Home
 JAVA8_HOME=`find /Library/Java/JavaVirtualMachines -type d -name "jdk1.8.*"`/Contents/Home
-export JAVA_HOME=$JAVA7_HOME
+export JAVA_HOME=$JAVA8_HOME
 export PATH=$JAVA_HOME/bin:$PATH
 
 # Android Setup
