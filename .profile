@@ -30,8 +30,6 @@ MY_PATH=$MY_PATH:~/Projects/personal/labs/scripts
 MY_PATH=$MY_PATH:/Applications/android-sdk-macosx/tools
 MY_PATH=$MY_PATH:/Applications/android-sdk-macosx/platform-tools
 MY_PATH=$MY_PATH:/Applications/Sublime\ Text.app/Contents/SharedSupport/bin
-MY_PATH=$MY_PATH:/Library/Frameworks/Python.framework/Versions/2.7/bin
-MY_PATH=$MY_PATH:/Library/Frameworks/Python.framework/Versions/3.5/bin
 export PATH=$MY_PATH:$PATH
 
 # Java Setup
@@ -44,7 +42,11 @@ export ANDROID_HOME=/Applications/android-sdk-macosx
 export ANDROID_HVPROTO=ddm
 
 # Python Setup
-source /Library/Frameworks/Python.framework/Versions/2.7/bin/virtualenvwrapper.sh
+source `which virtualenvwrapper.sh`
+
+# Ruby Setup
+export PATH=$PATH:~/.gem/ruby/2.0.0/bin
+export GEM_HOME=~/.gem
 
 # Git Setup
 source ~/.git-completion.bash
