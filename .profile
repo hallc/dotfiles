@@ -28,6 +28,7 @@ alias reload="source ~/.profile"
 # Path
 MY_PATH=$MY_PATH:~/Projects/personal/labs/scripts
 MY_PATH=$MY_PATH:/Applications/android-sdk-macosx/tools
+MY_PATH=$MY_PATH:`find /Applications/android-sdk-macosx/build-tools -mindepth 1 -maxdepth 1 | tail -1`
 MY_PATH=$MY_PATH:/Applications/android-sdk-macosx/platform-tools
 MY_PATH=$MY_PATH:/Applications/Sublime\ Text.app/Contents/SharedSupport/bin
 export PATH=$MY_PATH:$PATH
