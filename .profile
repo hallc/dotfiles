@@ -46,7 +46,7 @@ export ANDROID_HVPROTO=ddm
 source `which virtualenvwrapper.sh`
 
 # Ruby Setup
-export PATH=$PATH:~/.gem/ruby/2.0.0/bin
+export PATH=$PATH:~/.gem/ruby/2.0.0/bin:~/.gem/bin
 export GEM_HOME=~/.gem
 
 # Git Setup
