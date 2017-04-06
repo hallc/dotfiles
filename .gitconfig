@@ -2,9 +2,9 @@
 	ui = true
 [alias]
 	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
-	ur = reset 'HEAD@{1}'
 	prune = fetch --prune
 	stash-all = stash save --include-untracked
+	un-reset = reset 'HEAD@{1}'
 [push]
 	default = simple
 [url "https://"]
