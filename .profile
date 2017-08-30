@@ -40,7 +40,7 @@ export JAVA_HOME=$JAVA8_HOME
 export PATH=$JAVA_HOME/bin:$PATH
 
 # Android Setup
-export ANDROID_HOME=~/Applications/android-sdk-macosx
+export ANDROID_HOME=/Applications/android-sdk-macosx
 export ANDROID_HVPROTO=ddm
 
 # Python Setup
