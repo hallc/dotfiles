@@ -44,6 +44,7 @@ export ANDROID_HOME=/Applications/android-sdk-macosx
 export ANDROID_HVPROTO=ddm
 
 # Python Setup
+export PIP_REQUIRE_VIRTUALENV=true
 source `which virtualenvwrapper.sh`
 
 # Ruby Setup
