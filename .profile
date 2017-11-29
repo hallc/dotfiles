@@ -56,7 +56,6 @@ export GEM_HOME=~/.gem
 source ~/.git-completion.bash
 
 # Custom Aliases
-alias gdep='../gradlew dependencies --configuration debugCompileClasspath'
 calc () {
     bc -l <<< "$@"
 }
