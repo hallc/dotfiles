@@ -27,6 +27,7 @@ alias reload="source ~/.profile"
 
 # Path
 MY_PATH=$MY_PATH:~/Projects/personal/labs/scripts
+MY_PATH=$MY_PATH:/Applications/android-sdk-macosx/emulator
 MY_PATH=$MY_PATH:/Applications/android-sdk-macosx/tools
 MY_PATH=$MY_PATH:/Applications/android-sdk-macosx/tools/bin
 MY_PATH=$MY_PATH:/Applications/android-sdk-macosx/platform-tools
@@ -55,6 +56,10 @@ export GEM_HOME=~/.gem
 source ~/.git-completion.bash
 
 # Custom Aliases
+alias gdep='../gradlew dependencies --configuration debugCompileClasspath'
+calc () {
+    bc -l <<< "$@"
+}
 
 # Custom Environment Variables
 
