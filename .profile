@@ -37,7 +37,6 @@ export PATH=$MY_PATH:$PATH
 
 # Java Setup
 JAVA8_HOME=`find /Library/Java/JavaVirtualMachines -type d -name "jdk1.8.*" | tail -1`/Contents/Home
-JAVA11_HOME=`find /Library/Java/JavaVirtualMachines -type d -name "jdk-11.*" | tail -1`/Contents/Home
 export JAVA_HOME=$JAVA8_HOME
 export PATH=$JAVA_HOME/bin:$PATH
 
@@ -46,7 +45,6 @@ export ANDROID_HOME=/Applications/android-sdk-macosx
 export ANDROID_HVPROTO=ddm
 
 # Python Setup
-export PIP_REQUIRE_VIRTUALENV=true
 source `which virtualenvwrapper.sh`
 
 # Ruby Setup
