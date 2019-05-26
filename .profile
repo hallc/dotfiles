@@ -45,14 +45,16 @@ export ANDROID_HOME=/Applications/android-sdk-macosx
 export ANDROID_HVPROTO=ddm
 
 # Python Setup
+export PIP_REQUIRE_VIRTUALENV=true
+export VIRTUALENVWRAPPER_PYTHON=`which python3`
 source `which virtualenvwrapper.sh`
-
-# Ruby Setup
-export PATH=$PATH:~/.gem/ruby/2.0.0/bin:~/.gem/bin
-export GEM_HOME=~/.gem
 
 # Git Setup
 source ~/.git-completion.bash
+
+# Inetutils Setup
+export PATH="/usr/local/opt/inetutils/libexec/gnubin:$PATH"
+export MANPATH="/usr/local/opt/inetutils/libexec/gnuman:$MANPATH"
 
 # Custom Aliases
 
