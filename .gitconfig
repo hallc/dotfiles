@@ -6,6 +6,4 @@
 	un-reset = reset 'HEAD@{1}'
 [push]
 	default = simple
-[url "https://"]
-	insteadOf = git://
 
