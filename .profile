@@ -35,6 +35,9 @@ MY_PATH=$MY_PATH:`find /Applications/android-sdk-macosx/build-tools -mindepth 1 
 MY_PATH=$MY_PATH:/Applications/Sublime\ Text.app/Contents/SharedSupport/bin
 export PATH=$MY_PATH:$PATH
 
+# MacOS Setup
+export BASH_SILENCE_DEPRECATION_WARNING=1
+
 # Java Setup
 JAVA8_HOME=`find /Library/Java/JavaVirtualMachines -type d -name "jdk1.8.*" | tail -1`/Contents/Home
 export JAVA_HOME=$JAVA8_HOME
