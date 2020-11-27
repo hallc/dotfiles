@@ -39,8 +39,7 @@ export PATH=$MY_PATH:$PATH
 export BASH_SILENCE_DEPRECATION_WARNING=1
 
 # Java Setup
-JAVA8_HOME=`find /Library/Java/JavaVirtualMachines -type d -name "jdk1.8.*" | tail -1`/Contents/Home
-export JAVA_HOME=$JAVA8_HOME
+export JAVA_HOME=`find /Library/Java/JavaVirtualMachines -type d -name "jdk-*" | sort | tail -1`/Contents/Home
 export PATH=$JAVA_HOME/bin:$PATH
 
 # Android Setup
