@@ -39,7 +39,7 @@ export PATH=$MY_PATH:$PATH
 export BASH_SILENCE_DEPRECATION_WARNING=1
 
 # Java Setup
-export JAVA_HOME=`find /Library/Java/JavaVirtualMachines -type d -name "jdk-*" | sort | tail -1`/Contents/Home
+export JAVA_HOME=`/usr/libexec/java_home -v 15`
 export PATH=$JAVA_HOME/bin:$PATH
 
 # Android Setup
