@@ -26,6 +26,7 @@ alias lla="ls -lhA"
 alias reload="source ~/.profile"
 
 # Path
+MY_PATH=$MY_PATH:/opt/homebrew/bin
 MY_PATH=$MY_PATH:~/Projects/personal/labs/scripts
 MY_PATH=$MY_PATH:/Applications/android-sdk-macosx/emulator
 MY_PATH=$MY_PATH:/Applications/android-sdk-macosx/tools
@@ -53,10 +54,6 @@ source `which virtualenvwrapper.sh`
 
 # Git Setup
 source ~/.git-completion.bash
-
-# Inetutils Setup
-export PATH="/usr/local/opt/inetutils/libexec/gnubin:$PATH"
-export MANPATH="/usr/local/opt/inetutils/libexec/gnuman:$MANPATH"
 
 # Custom Aliases
 
