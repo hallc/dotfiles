@@ -46,6 +46,7 @@ export PATH=$JAVA_HOME/bin:$PATH
 # Android Setup
 export ANDROID_HOME=/Applications/android-sdk-macosx
 export ANDROID_HVPROTO=ddm
+export QEMU_AUDIO_DRV=none
 
 # Python Setup
 export PIP_REQUIRE_VIRTUALENV=true
