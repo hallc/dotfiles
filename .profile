@@ -1,8 +1,8 @@
-# Set the default editor and prompt.
+# Set the default editor and prompt
 export EDITOR=/usr/bin/vim
 export PS1="[\u@\h \W]\$ "
 
-# Colorize less and grep.
+# Colorize less and grep
 export LESS_TERMCAP_mb=$'\E[01;31m'
 export LESS_TERMCAP_md=$'\E[01;31m'
 export LESS_TERMCAP_me=$'\E[0m'
@@ -40,7 +40,7 @@ export PATH=$MY_PATH:$PATH
 export BASH_SILENCE_DEPRECATION_WARNING=1
 
 # Java Setup
-export JAVA_HOME=`/usr/libexec/java_home -v 15`
+export JAVA_HOME=`/usr/libexec/java_home -v 17`
 export PATH=$JAVA_HOME/bin:$PATH
 
 # Android Setup
