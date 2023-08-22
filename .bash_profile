@@ -1,5 +1,5 @@
 # Set the default editor and prompt
-export EDITOR=/usr/bin/vim
+export EDITOR=vim
 export PS1="[\u@\h \W]\$ "
 
 # Colorize less and grep
