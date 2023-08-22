@@ -1,6 +1,7 @@
 set nobackup
-set autoindent
-set smartindent
+"set autoindent
+"set smartindent
+set cindent
 set background=dark
 "set number
 set ruler
@@ -8,7 +9,7 @@ syntax on
 set hlsearch
 set incsearch
 set tabstop=4
-set softtabstop=4
 set shiftwidth=4
 "set expandtab
 set pastetoggle=<F10>
+set wildmenu
