@@ -1,7 +1,6 @@
 set nobackup
-"set autoindent
-"set smartindent
-set cindent
+set autoindent
+set smartindent
 set background=dark
 "set number
 set ruler
