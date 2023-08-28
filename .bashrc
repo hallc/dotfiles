@@ -17,10 +17,8 @@ export GREP_COLOR="1;33"
 tabs 4
 
 # Environment
-export ANDROID_HOME=/Applications/android-sdk-macosx
 export ANDROID_HVPROTO=ddm
 export BASH_SILENCE_DEPRECATION_WARNING=1
-export JAVA_HOME=$(/usr/libexec/java_home -v 17)
 export PIP_REQUIRE_VIRTUALENV=true
 export QEMU_AUDIO_DRV=none
 export VIRTUALENVWRAPPER_PYTHON=$(which python3)
