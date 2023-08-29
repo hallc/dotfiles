@@ -32,7 +32,7 @@ alias grep="grep --color=auto"
 
 # Functions
 grepp() {
-	grep --color=always $@ | less -R
+	grep --color=always $@ | less -R --quit-if-one-screen
 }
 
 # Tools
