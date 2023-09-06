@@ -13,9 +13,6 @@ export LESS_TERMCAP_us=$'\E[01;32m'
 
 export GREP_COLOR="1;33"
 
-# Set tab width
-tabs 4
-
 # Environment
 export ANDROID_HVPROTO=ddm
 export BASH_SILENCE_DEPRECATION_WARNING=1
