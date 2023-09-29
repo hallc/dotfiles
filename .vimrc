@@ -12,3 +12,5 @@ set shiftwidth=4
 "set expandtab
 set pastetoggle=<F10>
 set wildmenu
+
+filetype plugin indent on
