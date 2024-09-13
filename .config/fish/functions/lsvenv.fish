@@ -1,0 +1,1 @@
+alias lsvenv="ls -1 ~/.venv | sed 's/\///'"
