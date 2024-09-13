@@ -19,7 +19,6 @@ export BASH_SILENCE_DEPRECATION_WARNING=1
 export PIP_REQUIRE_VIRTUALENV=true
 export QEMU_AUDIO_DRV=none
 export STUDIO_GRADLE_JDK=$ANDROID_HOME
-export VIRTUALENVWRAPPER_PYTHON=$(which python3)
 
 # Aliases
 alias ls="ls --color"
@@ -35,4 +34,3 @@ grepp() {
 
 # Tools
 source ~/.git-completion.bash
-source $(which virtualenvwrapper.sh)
