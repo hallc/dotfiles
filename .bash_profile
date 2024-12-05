@@ -1,6 +1,6 @@
 # Path
 export ANDROID_HOME=/Applications/android-sdk-macosx
-export JAVA_HOME=$(/usr/libexec/java_home -v 17)
+export JAVA_HOME=$(/usr/libexec/java_home -v 21)
 
 PATH=/opt/homebrew/bin:$PATH
 PATH=$PATH:$JAVA_HOME/bin
