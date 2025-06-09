@@ -2,6 +2,9 @@ if status is-interactive
     # Set the default editor
     set -gx EDITOR "vim"
 
+    # Don't keep history between sessions
+    set -gx fish_history ""
+
     # Colorize less and grep
     set -gx LESS_TERMCAP_mb \e'[01;31m'
     set -gx LESS_TERMCAP_md \e'[01;31m'
