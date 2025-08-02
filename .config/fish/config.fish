@@ -15,6 +15,7 @@ if status is-interactive
     set -gx LESS_TERMCAP_us \e'[01;32m'
 
     set -gx GREP_COLOR "1;33"
+    set -gx GREP_COLORS "mt=1;33"
 
     # Environment
     set -gx ANDROID_HOME "/Applications/android-sdk-macosx"
