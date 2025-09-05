@@ -2,6 +2,9 @@
 export EDITOR=vim
 export PS1="[\u@\h \W]\$ "
 
+# Don't keep history between sessions
+unset HISTFILE
+
 # Colorize less and grep
 export LESS_TERMCAP_mb=$'\E[01;31m'
 export LESS_TERMCAP_md=$'\E[01;31m'
@@ -12,6 +15,7 @@ export LESS_TERMCAP_ue=$'\E[0m'
 export LESS_TERMCAP_us=$'\E[01;32m'
 
 export GREP_COLOR="1;33"
+export GREP_COLORS="mt=1;33"
 
 # Environment
 export ANDROID_HVPROTO=ddm
