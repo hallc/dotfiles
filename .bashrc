@@ -1,6 +1,6 @@
 # Set the default editor and prompt
 export EDITOR=vim
-export PS1="[\u@\h \W]\$ "
+export PS1='[\u@\h \W]\$ '
 
 # Don't keep history between sessions
 unset HISTFILE
