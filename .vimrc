@@ -6,6 +6,7 @@ set nobackup
 "set number
 set pastetoggle=<F10>
 set ruler
+"set shell=/bin/bash
 set shiftwidth=4
 set smartindent
 set tabstop=4
