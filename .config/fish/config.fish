@@ -28,11 +28,11 @@ if status is-interactive
 	# Path
 	fish_add_path -pP "/opt/homebrew/bin"
 	fish_add_path -aP "$JAVA_HOME/bin"
-	fish_add_path -aP "/Applications/android-sdk-macosx/cmdline-tools/latest/bin"
-	fish_add_path -aP "/Applications/android-sdk-macosx/emulator"
-	fish_add_path -aP "/Applications/android-sdk-macosx/tools"
-	fish_add_path -aP "/Applications/android-sdk-macosx/tools/bin"
-	fish_add_path -aP "/Applications/android-sdk-macosx/platform-tools"
+	fish_add_path -aP "$ANDROID_HOME/cmdline-tools/latest/bin"
+	fish_add_path -aP "$ANDROID_HOME/emulator"
+	fish_add_path -aP "$ANDROID_HOME/tools"
+	fish_add_path -aP "$ANDROID_HOME/tools/bin"
+	fish_add_path -aP "$ANDROID_HOME/platform-tools"
 	fish_add_path -aP $(find $ANDROID_HOME/build-tools -mindepth 1 -maxdepth 1 | tail -1)
 	fish_add_path -aP "$HOME/Projects/personal/labs/scripts"
 	fish_add_path -aP "/Applications/Sublime Text.app/Contents/SharedSupport/bin"
