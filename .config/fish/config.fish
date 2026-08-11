@@ -28,6 +28,7 @@ if status is-interactive
 	# Path
 	fish_add_path -pP "/opt/homebrew/bin"
 	fish_add_path -aP "$JAVA_HOME/bin"
+	fish_add_path -aP "/Applications/android-sdk-macosx/cmdline-tools/latest/bin"
 	fish_add_path -aP "/Applications/android-sdk-macosx/emulator"
 	fish_add_path -aP "/Applications/android-sdk-macosx/tools"
 	fish_add_path -aP "/Applications/android-sdk-macosx/tools/bin"
