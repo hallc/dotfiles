@@ -22,7 +22,7 @@ export GREP_COLORS="mt=1;33"
 export ANDROID_HVPROTO=ddm
 export PIP_REQUIRE_VIRTUALENV=true
 export QEMU_AUDIO_DRV=none
-export STUDIO_GRADLE_JDK=$ANDROID_HOME
+export STUDIO_GRADLE_JDK="$ANDROID_HOME"
 
 # Aliases
 alias ls="ls --color"
@@ -33,7 +33,7 @@ alias grep="grep --color=auto"
 
 # Functions
 grepp() {
-	grep --color=always $@ | less -R
+	grep --color=always $@ | less -R --quit-if-one-screen
 }
 
 # Tools
