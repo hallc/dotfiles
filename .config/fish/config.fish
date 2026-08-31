@@ -34,6 +34,9 @@ if status is-interactive
 	fish_add_path -aP "$ANDROID_HOME/tools/bin"
 	fish_add_path -aP "$ANDROID_HOME/platform-tools"
 	fish_add_path -aP $(find $ANDROID_HOME/build-tools -mindepth 1 -maxdepth 1 | tail -1)
-	fish_add_path -aP "$HOME/Projects/personal/labs/scripts"
 	fish_add_path -aP "/Applications/Sublime Text.app/Contents/SharedSupport/bin"
+	fish_add_path -aP "$HOME/Projects/personal/labs/scripts"
+	if test -d "$HOME/.local/bin"
+		fish_add_path -aP "$HOME/.local/bin"
+	end
 end
