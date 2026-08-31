@@ -1,6 +1,7 @@
 # Set the default editor and prompt
 export EDITOR=vim
-export PS1='[\u@\h \W]\$ '
+export GIT_PS1_SHOWCOLORHINTS=1
+export PS1='\e[32m\u\e[00m@\h:\e[34m$(pwd | sed "s#^$HOME#~#" | sed -r '\''s#([^~/])[^~/]+/#\1/#g'\'')\e[00m$(__git_ps1 " (%s)")\$ '
 
 # Don't keep history between sessions
 unset HISTFILE
@@ -37,3 +38,4 @@ grepp() {
 
 # Tools
 source ~/.git-completion.bash
+source ~/.git-prompt.sh
