@@ -23,7 +23,7 @@ if status is-interactive
 	set -gx JAVA_HOME "$(/usr/libexec/java_home -v 21)"
 	set -gx PIP_REQUIRE_VIRTUALENV true
 	set -gx QEMU_AUDIO_DRV none
-	set -gx STUDIO_GRADLE_JDK "$ANDROID_HOME"
+	set -gx STUDIO_GRADLE_JDK "$JAVA_HOME"
 
 	# Path
 	fish_add_path -pP "/opt/homebrew/bin"
