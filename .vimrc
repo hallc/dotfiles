@@ -1,5 +1,6 @@
 set autoindent
-set background=dark
+"set background=dark
+"set expandtab
 set hlsearch
 set incsearch
 set nobackup
